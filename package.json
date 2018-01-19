@@ -4,7 +4,8 @@
   "description": "learn vuex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/zhang-yafei/vue-vuex-test/issues"
   },
-  "homepage": "https://github.com/zhang-yafei/vue-vuex-test#readme"
+  "homepage": "https://github.com/zhang-yafei/vue-vuex-test#readme",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack-dev-server": "^2.11.0"
+  }
 }
